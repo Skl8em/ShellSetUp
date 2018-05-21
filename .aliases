@@ -1,0 +1,6 @@
+alias ..="cd .."
+alias ...="cd ../.."
+alias softwareupdate='softwareupdate -i -a'
+alias bu="brew update; brew upgrade; brew doctor;"
+alias cu="conda update --all --yes; conda clean --all --yes --quiet"
+alias pu="pip3 list --outdated --format=columns"
